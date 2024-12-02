@@ -3,8 +3,17 @@ package main
 import "fmt"
 
 func main() {
-    var myWords = "ine t"
-    nospace := cutText(myWords)
+    
+    var myWords = "AW SOME GO!"
+    var nospace string
+    for _, char := range myWords {
+        if char != ' ' {
+            nospace += string(char)
+        }
+    }
+
+    // var myWords = "ine t"
+    // nospace := cutText(myWords)
     fmt.Println(nospace)
 }
 
