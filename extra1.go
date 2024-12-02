@@ -3,10 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var rows int
-	fmt.Printf("Enter the number of rows: ")
-	fmt.Scanf("%d", &rows)
-	starStairs(rows);
+	starStairs(5);
 }
 
 func starStairs(rows int) {

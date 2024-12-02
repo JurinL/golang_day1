@@ -12,6 +12,10 @@ type Person struct {
 	Postcode  string
 }
 
+func main() {
+	createPeople()
+}
+
 func createPeople() {
 	peoples := map[string]Person{
 		"person1": {
