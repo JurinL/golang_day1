@@ -2,9 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-    switchIf()
-}
 func switchIf() {
     i := 2
     
